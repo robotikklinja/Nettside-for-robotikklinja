@@ -1,0 +1,86 @@
+/* Style the links inside the pill navigation menu */
+
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+
+
+  /* mus over */
+  .pill-nav a:hover {
+    background-color: white;
+    color: #25e2e8;
+  }
+  
+  /* aktiv */
+  .pill-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .image-selector {
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+  
+/*tabell*/
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* bare for underoverskrifter*/
+  h1,h2,h3,h4 {
+  <style>
+  .vl {
+    border-left: 2px solid purple;
+    height: 700px;
+    position: absolute;
+    left: 30%;
+    margin-left: -3px;
+    top: 0;
+  }
+  </style>
+  
+  <style>
+  .vl {
+    border-right: 2px solid purple;
+    height: 500px;
+    position: absolute;
+    right: 30%;
+    margin-right: -3px;
+    top: 0;
+  }
+  </style>
+  }
+  
+  <div class="vl"></div>
+  body {
+      background-color: white;
+      color: black;
+      text-align: justify;
+      margin: 1em;
+  }
+  
+  /*for overskrift*/
+  h1 {
+      background color: white;
+      color: #2545e8;
+  }
+      
+  /* bare for underoverskrifter*/	
+  h2,h3,h4 {
+      font-family: arial, helvetica, sans-serif;
+      background-color: white;
+      color: #54b8b1;
+  }
+  
+  
+  
