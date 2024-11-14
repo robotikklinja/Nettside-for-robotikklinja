@@ -1,6 +1,6 @@
 /* Style the links inside the pill navigation menu */
 
-.pill-nav a {
+#navbar a {
     display: inline-block;
     color: black;
     text-align: center;
@@ -13,19 +13,18 @@
     height: 100%;
   }
   
-
-
   /* mus over */
-  .pill-nav a:hover {
+  #navbar a:hover {
     background-color: white;
     color: #25e2e8;
+    
   }
-  
-  /* aktiv */
-  .pill-nav a.active {
-    background-color: dodgerblue;
-    color: white;
+
+  div{
+    margin: 0;
+    padding: 0;
   }
+
 
   .image-selector {
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
@@ -61,6 +60,11 @@
   </style>
   }
   
+  #navbar {
+    position: fixed;
+    top: 0;
+    background-color: white;
+  }
   <div class="vl"></div>
   body {
       background-color: white;
